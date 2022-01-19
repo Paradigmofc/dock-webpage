@@ -1,0 +1,83 @@
+/* ============================== Font ============================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ============================== Main settings ============================== */
+:root {
+    --dark-color: hsl(221, 31%, 10%);
+    --semi-dark: hsla(221, 31%, 10%, 0.7);
+    --button-color: hsl(232, 100%, 63%);
+    --button-bg: hsla(216, 100%, 63%, 0.1);
+    --white-button: hsl(0, 0%, 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto' !important;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p,h1,h2,h3,h4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* BUTTON UP */
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+#button {
+    display: inline-block;
+    background-color: #4058FF;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+/* HEADER */
+.navbar {
+    padding-top: 20px !important;
+    padding-bottom: 25px !important;
+}
+.nav-link {
+    font-size: 16px;
+    color: var(--semi-dark) !important;
+}
+.navbar-nav li {
+    font-size: 16px;
+}
+.active {
+    color: var(--dark-color) !important;
+}
