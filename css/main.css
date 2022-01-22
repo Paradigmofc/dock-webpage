@@ -46,7 +46,7 @@ img {
 }
 #button {
     display: inline-block;
-    background-color: #4058FF;
+    background-color: #001cd3;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -67,6 +67,7 @@ img {
     font-size: 2em;
     line-height: 50px;
     color: #fff;
+    cursor: pointer;
 }
 /* ============================== HEADER ============================== */
 .header {
@@ -163,35 +164,49 @@ img {
     transform: translateY(-3px);
 }
 
-
-
-
-
-/* ============================== MEDIA ============================== */
-@media screen and (max-width:991px) {
-    .nav-item {
-        margin-right: 0;
-        margin-top: 12px;
-    }
-    .login__section {
-        margin-top: 25px;
-    }
-    .offer__data {
-        margin-top: 60px;
-    }
-    .offer__subtitle {
-        margin: 15px auto !important;
-    }
-    .btn__offer {
-        margin: 0 auto;
-    }
-
+/* ============================== EXPERIENCE ==============================  */
+.experience__title-block {
+    margin-top: 100px;
 }
-@media screen and(max-width: 460px) {
-    .offer__title {
-        font-size: 36px; 
-    }
-    .offer__subtitle {
-        font-size: 16px;
-    }
+.experience__title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 16px !important;
+    color: var(--dark-color);
+}
+.experience__subtitle {
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--semi-dark);
+}
+.experience__data {
+    margin-top: 48px !important;
+    padding: 80px 48px !important;
+    background: #4058FF;
+    border-radius: 16px;
+}
+.experience__data-title {
+    color: #fff;
+    font-size: 34px;
+    margin-bottom: 20px !important;
+    width: 354px;
+    font-weight: 400;
+}
+.experience__data-subtitle {
+    color: #E8F1FF;
+    font-size: 20px;
+    font-weight: 400 !important;
+    width: 300px;
+}
+.line-up {
+    border-top: 1px solid #4B93FF;
+    width: 82%;
+    padding-top: 20px;
+}
+.links__img {
+    margin-top: 14px;
+}
+.experience__img {
+    height: 522px;
+    width: 100%;
 }

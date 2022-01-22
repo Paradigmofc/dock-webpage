@@ -1,0 +1,68 @@
+/* ============================== MEDIA ============================== */
+@media screen and (max-width:991px) {
+    .nav-item {
+        margin-right: 0;
+        margin-top: 12px;
+    }
+    .login__section {
+        margin-top: 25px;
+    }
+    .offer__data {
+        margin-top: 60px;
+    }
+    .offer__subtitle {
+        margin: 15px auto !important;
+    }
+    .btn__offer {
+        margin: 0 auto;
+    }
+    .experience__data {
+        padding-right: 48px !important;
+        padding-left: 48px !important;
+    }
+    .experience__data-title {
+        width: 100%;
+    }
+    .experience__data-subtitle {
+        width: 100%;
+    }
+    .second__exp-text {
+        margin-bottom: 20px; 
+    }
+    .line-up {
+        width: 100%;
+    }
+    .experience__img {
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .experience__data {
+        margin: 0 auto;
+        padding: 36px !important;
+        width: 95% !important;
+    }
+}
+@media screen and (max-width: 460px) {
+    .offer__data {
+        margin-bottom: 20px;
+    }
+    .offer__title {
+        font-size: 36px; 
+        line-height: 36px;
+    }
+    .offer__subtitle {
+        font-size: 16px;
+    }
+    .btn__offer{
+        width: 150px;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .experience__data-title {
+        font-size: 24px;
+    }
+    .experience__data-subtitle {
+        font-size: 18px;
+    }
+}
