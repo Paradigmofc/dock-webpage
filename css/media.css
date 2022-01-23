@@ -35,15 +35,21 @@
     .experience__img {
         height: auto !important;
     }
+    .navigate__complex {
+        margin-top: 36px !important;
+    }
+    .navigate__title {
+        margin-top: 24px !important;
+    }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width:575px) {
     .experience__data {
         margin: 0 auto;
         padding: 36px !important;
         width: 95% !important;
     }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width:460px) {
     .offer__data {
         margin-bottom: 20px;
     }
@@ -59,10 +65,23 @@
         font-size: 16px;
         padding: 10px 0;
     }
+    .experience__title {
+        font-size: 24px;
+        line-height: 28px; 
+    }
+    .experience__subtitle {
+        font-size: 18px;
+    }
     .experience__data-title {
         font-size: 24px;
     }
     .experience__data-subtitle {
+        font-size: 18px;
+    }
+    .navigate__title {
+        font-size: 24px;
+    }
+    .navigate__subtitle {
         font-size: 18px;
     }
 }

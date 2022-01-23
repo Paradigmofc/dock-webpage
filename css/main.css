@@ -210,3 +210,19 @@ img {
     height: 522px;
     width: 100%;
 }
+/* ============================== NAVIGATE COMPLEX ============================== */
+.navigate__complex {
+    margin-top: 24px !important;
+    background: rgba(241, 245, 255, 0.5);
+    border-radius: 16px;
+    padding: 80px 48px !important;
+}
+.navigate__title {
+    font-size: 34px;
+    color: var(--dark-color);
+    margin-bottom: 20px !important;
+}
+.navigate__subtitle {
+    font-size: 20px;
+    color: var(--semi-dark);
+}
