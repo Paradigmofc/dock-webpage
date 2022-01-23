@@ -41,11 +41,27 @@
     .navigate__title {
         margin-top: 24px !important;
     }
+    .brand__one {
+        margin-bottom: 36px !important;
+    }
 }
 @media screen and (max-width:575px) {
     .experience__data {
         margin: 0 auto;
         padding: 36px !important;
+        width: 95% !important;
+    }
+    .navigate__complex {
+       padding: 48px 24px !important;
+       margin: 0 auto;
+       width: 95% !important;
+    }
+    .brand__one {
+        padding: 48px 24px 24px 24px !important;
+        width: 95% !important;
+    }
+    .brand__two {
+        padding: 48px 24px 24px 24px !important;
         width: 95% !important;
     }
 }
@@ -83,5 +99,11 @@
     }
     .navigate__subtitle {
         font-size: 18px;
+    }
+    .brand__title {
+        font-size: 20px;
+    }
+    .brand__subtitle {
+        font-size: 20px;
     }
 }
