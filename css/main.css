@@ -228,13 +228,13 @@ img {
 }
 /* ============================== BRANDS ==============================  */
 .brand__one {
-    padding: 80px 48px 48px 48px !important;
+    padding: 80px 48px 35px 48px !important;
     background: rgba(255, 244, 245, 0.5);
     border-radius: 16px;
     margin-right: 20px !important;
 }
 .brand__two {
-    padding: 80px 48px 48px 48px !important;
+    padding: 80px 48px 35px 48px !important;
     background: rgba(255, 246, 228, 0.5);
     border-radius: 16px;
 }
@@ -251,4 +251,169 @@ img {
 }
 .brands__img {
     margin-top: 70px !important;
+}
+/* ============================== HELPER SECTION ============================== */
+.helper {
+    margin-top: 80px !important;
+}
+.team__title {
+    font-size: 36px;
+    color: var(--dark-color);
+}
+.team__subtitle {
+    font-size: 21px;
+    color: var(--semi-dark);
+}
+.helper__data {
+    background: #121722;
+    padding: 80px 48px !important;
+    border-radius: 16px;
+}
+.helper__text {
+    width: 300px;
+}
+.helper__data-title {
+    color: #fff;
+}
+.helper__data-subtitle {
+    color: #B9C0D5;
+}
+.helper__brand {
+    background: rgba(241, 245, 255, 0.5);
+    border-radius: 16px;
+    padding: 55px 48px 48px 48px !important;
+}
+.sales__helper {
+    padding: 80px !important;
+    background: rgba(241, 245, 255, 0.5);
+    border-radius: 16px;
+}
+.sales__helper-title {
+    width: 320px;
+}
+.sales__title {
+    font-size: 34px;
+    color: var(--dark-color);
+}
+.sales__subtitle {
+    font-size: 20px;
+    color: var(--semi-dark);
+}
+.first__sales-card {
+    background: #4058FF;
+    box-shadow: 0px 0px 0px rgba(29, 33, 60, 0.27);
+    border-radius: 16px;
+    margin-right: 40px !important;
+    padding: 90px 40px 100px 32px;
+    position: relative;
+}
+.first__sales-card::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #49A3FF;
+    top: 8%;
+    left: 10%;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+.first__sales-card::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    top: 6.8%;
+    left: 8.5%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
+.first__sales-card:hover::before {
+    left: 15%;
+    top: 5%;
+    box-shadow: 0 4px 8px rgba(0 , 0, 0, .15);
+    width: 10px;
+    height: 10px;
+}
+.second__sales-card {
+    background: #4058FF;
+    box-shadow: 0px 0px 0px rgba(29, 33, 60, 0.27);
+    border-radius: 16px;
+    padding: 85px 50px 70px 32px;
+    position: relative;
+}
+.second__sales-card::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #49A3FF;
+    top: 8%;
+    left: 10%;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+.second__sales-card::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    top: 6.8%;
+    left: 8.8%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
+.second__sales-card:hover::before {
+    left: 15%;
+    top: 5%;
+    box-shadow: 0 4px 8px rgba(0 , 0, 0, .15);
+    width: 10px;
+    height: 10px;
+}
+.sales__card-title {
+    font-size: 13px;    
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.sales__card-subtitle {
+    font-size: 32px;
+    color: #fff;
+    line-height: 36px;
+    margin-bottom: 13px !important;
+    width: 250px;
+}
+.sales__card-description {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 90%;
+    margin-bottom: 15px !important;
+}
+.learn__btn{
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s ease;
+    display: block;
+}
+.learn__btn:hover {
+    color: whitesmoke !important;
+    transform: translateX(10px);
+}
+.arrow__right {
+    font-size: 14px;
+    margin-left: 12px !important;
+    transition: 0.3s ease;
 }

@@ -44,6 +44,23 @@
     .brand__one {
         margin-bottom: 36px !important;
     }
+    .helper__text {
+        width: 100%;
+        text-align: center;
+    }
+    .sales__helper-title {
+        width: 100%;
+        text-align: center;
+    }
+    .first__sales-card {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-right: 0 !important;
+    }
+    .second__sales-card {
+        width: 100%;
+    }
 }
 @media screen and (max-width:575px) {
     .experience__data {
@@ -63,6 +80,11 @@
     .brand__two {
         padding: 48px 24px 24px 24px !important;
         width: 95% !important;
+    }
+    .helper__data {
+        padding: 48px 24px !important;
+        width: 95% !important;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width:460px) {
@@ -105,5 +127,11 @@
     }
     .brand__subtitle {
         font-size: 20px;
+    }
+    .team__title {
+        font-size: 24px;
+    }
+    .team__subtitle {
+        font-size: 18px;
     }
 }
