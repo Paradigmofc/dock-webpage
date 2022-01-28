@@ -417,3 +417,91 @@ img {
     margin-left: 12px !important;
     transition: 0.3s ease;
 }
+/* ============================== TEMPLATES ============================== */
+.templates {
+    margin-top: 100px;
+}
+.templates__title {
+    font-size: 36px;
+    color: var(--dark-color);
+}
+.templates__subtitle {
+    font-size: 21px;
+    color: var(--semi-dark);
+    line-height: 32px;  
+    width: 600px;
+    margin: 0 auto !important;
+}
+.templates__btn {
+    width: 213px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: rgba(64, 140, 255, 0.1);
+    border-radius: 34px;
+    font-size: 18px;
+    color: #4058FF;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+.templates__btn:hover {
+    transform: translateX(10px);
+}
+.templates__cards {
+    width: 767px !important;
+    margin: 0 auto;
+}
+.card {
+    border: none !important;
+    width: 245px !important;
+    border-radius: 8px !important;
+    margin-bottom: 24px;    
+    padding: 0 !important;
+}
+.card-body {
+    padding: 0.5rem 0 !important;
+}
+.card-img-top {
+    width: 245px !important;
+}
+.card-title {
+    font-size: 13px !important;
+    color: rgba(18, 23, 34, 0.46);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.card-text {
+    font-size: 20px !important;
+    color: var(--dark-color);
+}
+/* ============================== GET STARTED ============================== */
+.get {
+    margin-top: 80px;
+}
+.get__started-wrapp {
+    background: #4058FF;
+    padding: 120px 0;
+    border-radius: 16px;
+}
+.get__title {
+    color: #fff;
+    font-size: 34px;
+}
+.get__btn {
+    display: block;
+    width: 158px;
+    padding: 14px 0;
+    color: #4058FF;
+    background: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(18, 23, 34, 0.01);
+    border-radius: 100px;
+    transition: 0.5s ease;
+}
+.get__btn:hover {
+    transform: translatey(-10px);
+}

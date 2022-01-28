@@ -61,6 +61,14 @@
     .second__sales-card {
         width: 100%;
     }
+    .templates__subtitle {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .templates__cards {
+        width: 100% !important;
+    }
 }
 @media screen and (max-width:575px) {
     .experience__data {
@@ -133,5 +141,11 @@
     }
     .team__subtitle {
         font-size: 18px;
+    }
+    .first__sales-card {
+        padding: 90px 25px 100px 22px;
+    }
+    .second__sales-card {
+        padding: 90px 25px 100px 22px;
     }
 }
