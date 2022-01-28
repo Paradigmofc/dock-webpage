@@ -69,6 +69,16 @@
     .templates__cards {
         width: 100% !important;
     }
+    .footer__logo {
+        margin-bottom: 16px;
+    }
+    .credits {
+        margin-bottom: 16px !important;
+        margin-top: 16px !important;
+    }
+    .footer__link {
+        margin-bottom: 16px;
+    }
 }
 @media screen and (max-width:575px) {
     .experience__data {
