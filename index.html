@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ============================== ANIMATE CSS ============================== -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!-- ============================== FONT ============================== -->
     <script src="https://kit.fontawesome.com/6eac0bf17d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -41,7 +46,7 @@
                               <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item wow bounceInUp">
                             <a class="nav-link" href="#">Templates</a>
                           </li>
                           <li class="nav-item">
@@ -74,7 +79,7 @@
                      <a href="#" class="btn__offer">Get Started</a>
                    </div> 
                   </div>
-                  <div class="col-lg-7">
+                  <div class="col-lg-7 wow bounceInUp">
                     <div class="offer__img">
                       <img src="img/offerimg.png" alt="People works on image" class="offer-img">
                     </div>
@@ -256,7 +261,7 @@
       <div class="templates">
         <div class="container">
           <div class="row">
-            <div class="templates__title-block text-center">
+            <div class="templates__title-block text-center wow bounceInUp">
               <h1 class="templates__title mb-3">
                 Explore Dock templates
               </h1>
@@ -319,9 +324,19 @@
       <!-- ============================== GET STARTED ============================== -->
       <div class="get">
         <div class="container-sm">
+          <!-- <div class='pin pin1'></div>
+            <div class='pin pin2'></div>
+            <div class='pin pin3'></div>
+            <div class='pin pin4'></div>
+            <div class='pin pin5'></div>
+            <div class='pin pin6'></div>
+            <div class='pin pin7'></div>
+            <div class='pin pin8'></div>
+            <div class='pin pin9'></div>
+            <div class='pin pin10'></div> -->
           <div class="row">
             <div class="get__started-wrapp text-center">
-              <h1 class="get__title mb-3">
+              <h1 class="get__title mb-3 animate__animated animate__bounce">
                 Get started with Dock
               </h1>
               <a href="#" class="get__btn"> Get Started</a>
@@ -363,6 +378,10 @@
       </div>
     </footer>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script> 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
 </body>

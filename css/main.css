@@ -505,6 +505,14 @@ img {
 .get__btn:hover {
     transform: translatey(-10px);
 }
+/* .pin {
+    width: 10px !important;
+    height:10px !important;
+    background-color:rgb(0, 0, 0);
+    position: relative;
+    border-radius: 100%;
+    display: block !important;
+} */
 /* ============================== FOOTER ============================== */
 .footer {
     margin: 80px 0;
