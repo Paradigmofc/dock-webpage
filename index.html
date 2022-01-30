@@ -5,14 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ============================== CSS ============================== -->
+    <!-- ============================== ANIMATE CSS ============================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- ============================== ANIMATE CSS ============================== -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
     <!-- ============================== FONT ============================== -->
     <script src="https://kit.fontawesome.com/6eac0bf17d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -24,7 +21,7 @@
       <a id="button" class="show"></a>
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent animate__animated animate__zoomInUp">
                       <a class="navbar-brand me-4" href="#header">
                           <img src="img/Logo.png" alt="Image" class="logotype">
                       </a>
@@ -46,7 +43,7 @@
                               <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                           </li>
-                          <li class="nav-item wow bounceInUp">
+                          <li class="nav-item">
                             <a class="nav-link" href="#">Templates</a>
                           </li>
                           <li class="nav-item">
@@ -69,7 +66,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                   <div class="col-12 col-lg-4">
-                   <div class="offer__data text-center text-lg-start">
+                   <div class="offer__data text-center text-lg-start wow slideInUp">
                      <h1 class="offer__title">
                       The new way to manage external relationships
                      </h1>
@@ -92,7 +89,7 @@
           <div class="container">
             <div class="row justify-content-center align-items-center">
               <div class="col col-lg-7">
-                <div class="experience__title-block text-center">
+                <div class="experience__title-block text-center wow bounceInUp">
                   <h1 class="experience__title">
                     Transform the customer experience from demo to onboarding and beyond
                   </h1>
@@ -164,7 +161,7 @@
           </div>
         </div>
       <!-- ============================== TEAM WORK ============================== -->
-      <div class="helper">
+      <div class="helper wow bounceInUp">
         <div class="container">
           <div class="row justify-content-center align-items-center">
             <div class="col col-lg-7">
@@ -258,7 +255,7 @@
         </div>
       </div>
       <!-- ============================== TEMPLATES ============================== -->
-      <div class="templates">
+      <div class="templates wow bounceInUp">
         <div class="container">
           <div class="row">
             <div class="templates__title-block text-center wow bounceInUp">
@@ -336,7 +333,7 @@
             <div class='pin pin10'></div> -->
           <div class="row">
             <div class="get__started-wrapp text-center">
-              <h1 class="get__title mb-3 animate__animated animate__bounce">
+              <h1 class="get__title mb-3 wow bounceInUp">
                 Get started with Dock
               </h1>
               <a href="#" class="get__btn"> Get Started</a>
@@ -377,12 +374,12 @@
         </div>
       </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script> 
     <script>
       new WOW().init();
-    </script> 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/main.js"></script>
+  </script>
 </body>
 </html>
