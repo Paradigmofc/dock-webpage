@@ -141,10 +141,10 @@
         font-size: 18px;
     }
     .brand__title {
-        font-size: 20px;
+        font-size: 24px;
     }
     .brand__subtitle {
-        font-size: 20px;
+        font-size: 18px;
     }
     .team__title {
         font-size: 24px;
@@ -157,5 +157,20 @@
     }
     .second__sales-card {
         padding: 90px 25px 100px 22px;
+    }
+    .sales__title {
+        font-size: 24px;
+    }
+    .sales__subtitle {
+        font-size: 18px;
+    }
+    .templates__title {
+        font-size: 24px;
+    }
+    .templates__subtitle {
+        font-size: 18px;    
+    }
+    .get__title {
+        font-size: 26px;
     }
 }

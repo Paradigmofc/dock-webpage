@@ -1,5 +1,5 @@
 "use strict"
-// КНОПКА "ВВЕРХ"
+// BUTTON "UP"
 var btn = $('#button');
 
 $(window).scroll(function() {
@@ -13,4 +13,19 @@ $(window).scroll(function() {
 btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '100');
+});
+
+
+
+/* ===================================
+  Rotating Text
+====================================== */
+
+$("#js-rotating").Morphext({
+  animation: "flipInX",
+  separator: ",",
+  speed: 3000,
+  complete: function() {
+
+}
 });

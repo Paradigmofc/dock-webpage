@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON -->
     <link rel="stylesheet" href="favicon.ico">
+    <!-- CSS RULES -->
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/morphext.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/6eac0bf17d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -29,7 +32,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav align-items-center me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#header">Why Dock</a>
+                          <a class="nav-link active" aria-current="page" href="#why">Why Dock</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,15 +45,15 @@
                           </ul>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Templates</a>
+                          <a class="nav-link" href="#templates">Templates</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Library</a>
+                          <a class="nav-link" href="#footer">Library</a>
                         </li>
                       </ul>
                       <div class="login__section justify-content-center justify-content-lg-end d-flex align-items-center col-lg-4">
-                          <a href="#" class="log__in me-3">Login</a>
-                          <a href="#" class="get__started">Get Started</a>
+                          <a href="#get" class="log__in me-3">Login</a>
+                          <a href="#get" class="get__started">Get Started</a>
                       </div>
                     </div>
               </nav>
@@ -89,7 +92,7 @@
         <div class="col col-lg-7">
           <div class="experience__title-block text-center wow fadeInUp">
             <h1 class="experience__title">
-              Transform the customer experience from demo to onboarding and beyond
+              <span id="js-rotating">Transform, Convert</span> the customer experience from demo to onboarding and beyond
             </h1>
             <p class="experience__subtitle">
               Personalized spaces that make you look professional.
@@ -161,7 +164,7 @@
 <!-- ============================== TEAM WORK ============================== -->
 <div class="helper">
   <div class="container">
-    <div class="row justify-content-center align-items-center wow fadeInUp">
+    <div id="why" class="row justify-content-center align-items-center wow fadeInUp">
       <div class="col col-lg-7">
         <div class="team__title-block text-center">
           <h1 class="team__title mb-3">
@@ -253,7 +256,7 @@
   </div>
 </div>
 <!-- ============================== TEMPLATES ============================== -->
-<div class="templates wow fadeInUp">
+<div id="templates" class="templates wow fadeInUp">
   <div class="container">
     <div class="row">
       <div class="templates__title-block text-center wow fadeInUp">
@@ -317,7 +320,7 @@
   </div>
 </div>
 <!-- ============================== GET STARTED ============================== -->
-<div class="get">
+<div id="get" class="get">
   <div class="container-sm">
     <!-- <div class='pin pin1'></div>
       <div class='pin pin2'></div>
@@ -378,6 +381,7 @@
     </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/morphext.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

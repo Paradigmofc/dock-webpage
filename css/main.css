@@ -232,11 +232,19 @@ img {
     background: rgba(255, 244, 245, 0.5);
     border-radius: 16px;
     margin-right: 20px !important;
+    transition: 0.3s ease;
+}
+.brand__one:hover {
+    transform: scale(1.03);
 }
 .brand__two {
     padding: 80px 48px 35px 48px !important;
     background: rgba(255, 246, 228, 0.5);
     border-radius: 16px;
+    transition: 0.3s ease;
+}
+.brand__two:hover {
+    transform: scale(1.03);
 }
 .brand__title {
     font-size: 24px;
@@ -282,6 +290,10 @@ img {
     background: rgba(241, 245, 255, 0.5);
     border-radius: 16px;
     padding: 55px 48px 48px 48px !important;
+    transition: 0.3s ease;
+}
+.helper__brand:hover {
+    transform: scale(1.03);
 }
 .sales__helper {
     padding: 80px !important;
@@ -314,8 +326,8 @@ img {
     width: 14px;
     height: 14px;
     background: #49A3FF;
-    top: 8%;
-    left: 10%;
+    top: 30px;
+    left: 30px;
     border-radius: 50%;
     transition: 1s ease;
 }
@@ -325,8 +337,8 @@ img {
     width: 24px;
     height: 24px;
     background: transparent;
-    top: 6.8%;
-    left: 8.5%;
+    top: 25px;
+    left: 25px;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-right: 2px solid white;
@@ -355,8 +367,8 @@ img {
     width: 14px;
     height: 14px;
     background: #49A3FF;
-    top: 8%;
-    left: 10%;
+    top: 30px;
+    left: 30px;
     border-radius: 50%;
     transition: 1s ease;
 }
@@ -366,8 +378,8 @@ img {
     width: 24px;
     height: 24px;
     background: transparent;
-    top: 6.8%;
-    left: 8.8%;
+    top: 25px;
+    left: 25px;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-right: 2px solid white;
@@ -464,6 +476,10 @@ img {
 }
 .card-img-top {
     width: 245px !important;
+    transition: 0.3s ease;
+}
+.card-img-top:hover {
+    transform: scale(1.05);
 }
 .card-title {
     font-size: 13px !important;
